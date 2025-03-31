@@ -18,9 +18,9 @@ To improve this tool, we invite contributions of hippocampal theta-filtered LFP 
 .
 ├── main.py               # Training pipeline: CWT -> PCA -> SVM + saving models
 ├── Checker.py            # Classification script for external .mat data using pretrained models
-├── pca_modelHLayers_without_TG_data.joblib
-├── scaler_modelHLayers_without_TG_data.joblib
-├── svm_modelHLayers_without_TG_data.joblib
+├── pca_model.joblib
+├── scaler_model.joblib
+├── svm_model.joblib
 ├── requirements.txt      # Python dependencies
 └── README.md             # This file
 ```
